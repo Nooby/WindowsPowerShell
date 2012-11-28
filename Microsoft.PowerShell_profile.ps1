@@ -20,3 +20,5 @@ $ui = (Get-Host).UI.RawUI
 $ui.BackgroundColor = "black"
 $ui.ForegroundColor = "green"
 
+function inetp () { Test-Connection -ComputerName 8.8.8.8 }
+
